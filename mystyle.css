@@ -1,0 +1,48 @@
+html {
+	background-color: #000000;
+}
+
+h1, h2 {
+	font-family: "Georgia", serif;
+	color: #00fa9a
+}
+
+p, ul, ol {
+	font-family: "Arial", sans-serif;
+	font-size: 110%;
+	color: #e8e8e8
+}
+
+p::first-letter {
+  font-size: 150%;
+}
+
+strong {
+	font-family: "Avant Garde", sans-serif; 
+	color: #ff6347;
+}
+
+a {
+	color: #bf55ec;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a:link {
+	 color: #bf55ec; text-decoration: none; }
+a:visited { 
+	color: #bf55ec; text-decoration: none; }
+a:hover { 
+	color: red; text-decoration: none; }
+a:active { 
+	color: red; text-decoration: none; }
